@@ -1,0 +1,16 @@
+{
+  "name": "dafoof-books-brand",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dafoof Books — brand assets, social kit, cover templates and bilingual landing page",
+  "scripts": {
+    "build": "node work/build-logos.js && node work/build-social.js && node work/build-covers.js",
+    "render": "node work/render.js",
+    "all": "npm run build && npm run render",
+    "serve": "node work/server.js . 8077",
+    "open": "node work/server.js . 8077"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}
