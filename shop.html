@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop — Dafoof Books</title>
+<meta name="description" content="Browse every digital book in the Dafoof library: crafts, classics, language, self-help and business. Instant download, secure Payhip checkout.">
+<meta name="theme-color" content="#2f5d50">
+<meta property="og:title" content="Shop — Dafoof Books">
+<meta property="og:description" content="Seven digital books, instant download, first one free.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://payhip.com/DafoofBooks">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-title-en="Shop — Dafoof Books" data-title-ar="المتجر — كتب دفوف">
+
+<!-- ============ announcement ============ -->
+<div class="announce">
+  <span data-en="Get your first book free" data-ar="احصل على كتابك الأول مجانًا">Get your first book free</span>
+  &nbsp;·&nbsp;
+  <a href="product.html?id=animators-survival-kit" data-en="Claim it now" data-ar="احصل عليه الآن">Claim it now</a>
+</div>
+
+<!-- ============ header ============ -->
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="index.html" aria-label="Dafoof Books">
+      <img class="brand-logo"
+           src="assets/logo-primary.svg"
+           data-en-src="assets/logo-primary.svg"
+           data-ar-src="assets/logo-arabic.svg"
+           alt="Dafoof Books">
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a>
+      <a href="shop.html" aria-current="page" data-en="Shop" data-ar="المتجر">Shop</a>
+      <a href="contact.html" data-en="Contact" data-ar="تواصل">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ar" aria-pressed="false">ع</button>
+      </div>
+      <a class="btn btn--primary" href="https://payhip.com/DafoofBooks" data-en="Visit on Payhip" data-ar="زيارة على Payhip">Visit on Payhip</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ page hero ============ -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+        <span aria-current="page" data-en="Shop" data-ar="المتجر">Shop</span>
+      </nav>
+      <h1 data-en="The whole shelf" data-ar="الرفّ كاملًا">The whole shelf</h1>
+      <p data-en="Seven digital books — crafts, classics, language, self-help and business. Pick one, pay on Payhip, keep it forever."
+         data-ar="سبعة كتب رقمية — حرف، كلاسيكيات، لغة، تنمية ذاتية وأعمال. اختر واحدًا، ادفع عبر Payhip، واحتفظ به إلى الأبد.">
+        Seven digital books — crafts, classics, language, self-help and business. Pick one, pay on Payhip, keep it forever.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ shop ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="shop-bar">
+        <div class="filters" data-shop-filters role="group" aria-label="Filter books"></div>
+        <div class="shop-count" data-shop-count></div>
+      </div>
+
+      <div class="grid-products" data-shop-grid></div>
+      <noscript>
+        <div class="noscript">
+          <span data-en="Enable JavaScript to browse here — or open the store directly."
+                data-ar="فعّل جاڤاسكربت للتصفح هنا — أو افتح المتجر مباشرة.">Enable JavaScript to browse here — or open the store directly.</span>
+          <a href="https://payhip.com/DafoofBooks">payhip.com/DafoofBooks</a>
+        </div>
+      </noscript>
+    </div>
+  </section>
+
+  <!-- ============ free book band ============ -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="band">
+        <div>
+          <p class="eyebrow" style="color:var(--gold)" data-en="Welcome gift" data-ar="هدية ترحيبية">Welcome gift</p>
+          <h2 data-en="Get your first book free" data-ar="احصل على كتابك الأول مجانًا">Get your first book free</h2>
+          <p data-en="No card details, no catch — open the free listing, add it to your basket and download it."
+             data-ar="بلا تفاصيل وبلا شروط — افتح المنتج المجاني، أضفه إلى السلة وحمّله فورًا.">
+            No card details, no catch — open the free listing, add it to your basket and download it.
+          </p>
+        </div>
+        <a class="btn btn--gold" href="product.html?id=animators-survival-kit" data-en="Claim the free book" data-ar="احصل على الكتاب المجاني">Claim the free book</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ footer ============ -->
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <strong style="font-family:var(--serif);font-size:1.15rem">Dafoof Books</strong>
+      <div class="site-footer__meta" data-en="Your gateway between the covers" data-ar="بوابتك بين الأغلفة">Your gateway between the covers</div>
+    </div>
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a>
+      <a href="shop.html" data-en="Shop" data-ar="المتجر">Shop</a>
+      <a href="contact.html" data-en="Contact" data-ar="تواصل">Contact</a>
+      <a href="https://payhip.com/DafoofBooks/users/login" data-en="Login" data-ar="تسجيل الدخول">Login</a>
+      <a href="https://payhip.com/DafoofBooks">payhip.com/DafoofBooks</a>
+    </nav>
+    <div class="site-footer__meta">© <span id="year">2026</span> Dafoof Books</div>
+  </div>
+</footer>
+
+<script src="assets/books.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
